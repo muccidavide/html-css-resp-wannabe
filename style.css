@@ -73,3 +73,43 @@ img {
   clear: both;
 }
 
+/* MEDIA QUERY */
+
+@media (max-width: 420px) {
+  *{
+    font-size: 1rem;
+
+  }
+
+  h1{
+    font-size: 1rem;
+  }
+
+  .container{
+    margin: auto;
+  }
+  .row{
+    width: 80%;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.right,
+  #steps .row>.central{
+    margin-top: 1rem;
+    width: 100%;
+
+  }
+
+  img{
+    height: 100px;
+  }
+
+
+
+}
