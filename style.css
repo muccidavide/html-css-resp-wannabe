@@ -77,12 +77,11 @@ img {
 
 @media (max-width: 420px) {
   *{
-    font-size: 1rem;
-
+    font-size: medium;
   }
 
   h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .container{
@@ -90,6 +89,7 @@ img {
   }
   .row{
     width: 80%;
+    margin-top: 50px;
   }
 
   #lezioni .row>.left,
@@ -109,7 +109,11 @@ img {
   img{
     height: 100px;
   }
-
+  #why .row>.first, 
+  #why .row>.second, 
+  #why .row>.third{
+    margin-top: 20px;
+  }
 
 
 }
